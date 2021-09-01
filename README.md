@@ -1,2 +1,2 @@
-# Pascal-s-Triangle
+# Pascals-Triangle
 Challenge at LeetCode.com. Array, Dynamic Programming.
