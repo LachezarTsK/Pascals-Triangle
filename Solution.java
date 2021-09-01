@@ -1,12 +1,13 @@
 import java.util.List;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Solution {
 
     public List<List<Integer>> generate(int numRows) {
 
         List<List<Integer>> rows = new ArrayList<>();
-        rows.add(new ArrayList<>(1));
+        rows.add(Arrays.asList(1));
         if (numRows == 1) {
             return rows;
         }
